@@ -11,8 +11,8 @@ public static class Settings{
     public static int yInput;
     public static int isWalking; 
     public static int isRunning; 
-    public static int isIdle; 
-    public static int isCarrying;
+    // public static int isIdle; 
+    // public static int isCarrying;
     public static int toolEffect; 
     public static int isUsingToolRight; 
     public static int isUsingToolLeft; 
@@ -41,11 +41,11 @@ public static class Settings{
     static Settings(){
         //Player Animation Parameters
         xInput = Animator.StringToHash("xInput");
-        xInput= Animator.StringToHash("yInput");
+        yInput= Animator.StringToHash("yInput");
         isWalking= Animator.StringToHash("isWalking");
         isRunning= Animator.StringToHash("isRunning");
-        isIdle= Animator.StringToHash("isIdle");
-        isCarrying= Animator.StringToHash("isCarrying");
+        // isIdle= Animator.StringToHash("isIdle");
+        // isCarrying= Animator.StringToHash("isCarrying");
         toolEffect= Animator.StringToHash("toolEffect");
         isUsingToolRight= Animator.StringToHash("isUsingToolRight");
         isUsingToolLeft= Animator.StringToHash("isUsingToolLeft");

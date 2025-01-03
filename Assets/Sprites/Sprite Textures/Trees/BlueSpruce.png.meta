@@ -1,7 +1,28 @@
 fileFormatVersion: 2
-guid: 6120e206f0262684d837305278e05a0a
+guid: 5d22327a2a3d2a049a8a59a708d527fe
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2243126732310486641
+    second: BlueSpruce_0
+  - first:
+      213: 9217379939570758284
+    second: BlueSpruce_1
+  - first:
+      213: -8978622596343774240
+    second: BlueSpruce_2
+  - first:
+      213: -341119608263849502
+    second: BlueSpruce_3
+  - first:
+      213: 4303850705525679241
+    second: BlueSpruce_4
+  - first:
+      213: -6947715560310228016
+    second: BlueSpruce_5
+  - first:
+      213: 5616798495908862610
+    second: BlueSpruce_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,8 +83,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -76,43 +97,43 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -120,10 +141,10 @@ TextureImporter:
       name: BlueSpruce_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 73
-        width: 47
-        height: 87
+        x: 0
+        y: 64
+        width: 48
+        height: 96
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0695b6c9074944e42abf22fa0557a0f9
-      internalID: -1533265126
+      spriteID: c2acaad6edb78504684cf6788a8e53cb
+      internalID: -2243126732310486641
       vertices: []
       indices: 
       edges: []
@@ -141,10 +162,10 @@ TextureImporter:
       name: BlueSpruce_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 33
-        width: 14
-        height: 30
+        x: 0
+        y: 32
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5282bad2afcb38b459887fddc072d70a
-      internalID: -1542872754
+      spriteID: fd9f4cfc78a63d14a91dbed42b00ac15
+      internalID: 9217379939570758284
       vertices: []
       indices: 
       edges: []
@@ -162,10 +183,10 @@ TextureImporter:
       name: BlueSpruce_2
       rect:
         serializedVersion: 2
-        x: 19
-        y: 41
-        width: 5
-        height: 6
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b650ab02f1305c944a2ec1768342e088
-      internalID: 2036782268
+      spriteID: 47dfc73cfc6ec7544b26c28e918a3c03
+      internalID: -8978622596343774240
       vertices: []
       indices: 
       edges: []
@@ -183,10 +204,10 @@ TextureImporter:
       name: BlueSpruce_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 33
-        width: 6
-        height: 11
+        x: 32
+        y: 32
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3527bebec4c3a2d4da459be4eb84285d
-      internalID: 1190594004
+      spriteID: d1e39a64e2ef735469f48d4b7dcdeb4f
+      internalID: -341119608263849502
       vertices: []
       indices: 
       edges: []
@@ -204,10 +225,10 @@ TextureImporter:
       name: BlueSpruce_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 0
+        y: 16
         width: 16
-        height: 19
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c89de86da4b3ac74d8b292f667763b8a
-      internalID: 1598756673
+      spriteID: 6ab4779c9fa36514982fd4d6cbc2ed84
+      internalID: 4303850705525679241
       vertices: []
       indices: 
       edges: []
@@ -225,10 +246,10 @@ TextureImporter:
       name: BlueSpruce_5
       rect:
         serializedVersion: 2
-        x: 17
-        y: 33
-        width: 7
-        height: 7
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4da0c5989fa0bd4982dd22e2d28deda
-      internalID: -1920856437
+      spriteID: b3a005c706ac22d498d1b1468d2625ef
+      internalID: -6947715560310228016
       vertices: []
       indices: 
       edges: []
@@ -246,10 +267,10 @@ TextureImporter:
       name: BlueSpruce_6
       rect:
         serializedVersion: 2
-        x: 21
+        x: 32
         y: 16
-        width: 6
-        height: 12
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,50 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b552e7879390948ad968fd5a2b9cc4
-      internalID: -31021365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlueSpruce_7
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 16
-        width: 8
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c95417cf7e22ab34b9fd73264d4f049e
-      internalID: -1125925040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlueSpruce_8
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 17
-        width: 11
-        height: 15
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42c4c7a09edebf444a27f2466020a98e
-      internalID: -772175435
+      spriteID: 7541ccf45e05746409010920fbb10d06
+      internalID: 5616798495908862610
       vertices: []
       indices: 
       edges: []
@@ -308,7 +287,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8fb22c1981961334885be8d0b25946d9
     internalID: 0
     vertices: []
     indices: 
@@ -316,15 +295,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BlueSpruce_0: -1533265126
-      BlueSpruce_1: -1542872754
-      BlueSpruce_2: 2036782268
-      BlueSpruce_3: 1190594004
-      BlueSpruce_4: 1598756673
-      BlueSpruce_5: -1920856437
-      BlueSpruce_6: -31021365
-      BlueSpruce_7: -1125925040
-      BlueSpruce_8: -772175435
+      BlueSpruce_0: -2243126732310486641
+      BlueSpruce_1: 9217379939570758284
+      BlueSpruce_2: -8978622596343774240
+      BlueSpruce_3: -341119608263849502
+      BlueSpruce_4: 4303850705525679241
+      BlueSpruce_5: -6947715560310228016
+      BlueSpruce_6: 5616798495908862610
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

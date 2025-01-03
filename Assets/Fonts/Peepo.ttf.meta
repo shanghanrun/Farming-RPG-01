@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ab2b63beee0a8b4bab35b0f978a33c7
+guid: 771d877a49e443540ae1bfb7ec2795b5
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,6 +8,7 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
+  fontName: Peepo
   fontNames:
   - Peepo
   fallbackFontReferences: []

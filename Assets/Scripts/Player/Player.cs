@@ -64,7 +64,8 @@ public class Player : SingletonMonobehaviour<Player>
 		//Send event to any listener for player movement input
 		EventHandler.CallMovementEvent(
 			xInput, yInput,
-			isWalking, isRunning, isIdle, isCarrying,
+			isWalking, isRunning, 
+			// isIdle, isCarrying,
 			toolEffect,
 			isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
 			isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
@@ -75,6 +76,7 @@ public class Player : SingletonMonobehaviour<Player>
 
 		#endregion
 	}
+	
 
 	void FixedUpdate(){
 		PlayerMovement();

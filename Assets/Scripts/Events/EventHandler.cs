@@ -1,6 +1,7 @@
 public delegate void MovementDelegate(
     float xInput, float yInput, 
-    bool isWalking, bool isRunning, bool isIdle, bool isCarrying, 
+    bool isWalking, bool isRunning, 
+    // bool isIdle, bool isCarrying, 
     ToolEffect toolEffect, 
     bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown, 
     bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
@@ -16,7 +17,8 @@ public static class EventHandler{
     // Movement Event Call for Publishers
     public static void CallMovementEvent(
         float xInput, float yInput,
-        bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
+        bool isWalking, bool isRunning, 
+        // bool isIdle, bool isCarrying,
         ToolEffect toolEffect,
         bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
         bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
@@ -28,7 +30,8 @@ public static class EventHandler{
             if(MovementEvent != null){
                 MovementEvent(
                     xInput, yInput,
-                    isWalking, isRunning, isIdle, isCarrying,
+                    isWalking, isRunning, 
+                    // isIdle, isCarrying,
                     toolEffect,
                     isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
                     isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
