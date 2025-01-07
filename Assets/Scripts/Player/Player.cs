@@ -37,7 +37,10 @@ public class Player : SingletonMonobehaviour<Player>
 	public bool idleDown = false;
 
 	Rigidbody2D rb;
+
+	#pragma warning disable 414
 	Direction playerDirection;
+	#pragma warning restore 414
 
 	float movementSpeed;
 

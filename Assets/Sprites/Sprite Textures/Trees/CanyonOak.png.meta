@@ -141,10 +141,10 @@ TextureImporter:
       name: CanyonOak_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 48
-        height: 96
+        x: 2
+        y: 73
+        width: 45
+        height: 84
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: CanyonOak_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 32
-        width: 16
-        height: 32
+        width: 14
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
-        width: 16
-        height: 16
+        y: 52
+        width: 9
+        height: 6
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: CanyonOak_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 32
+        x: 23
+        y: 57
+        width: 9
+        height: 6
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: CanyonOak_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 23
+        y: 48
+        width: 9
+        height: 6
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: CanyonOak_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
+        x: 32
+        y: 32
         width: 16
-        height: 16
+        height: 18
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: CanyonOak_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 16
+        y: 32
+        width: 5
+        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,6 +280,90 @@ TextureImporter:
       bones: []
       spriteID: f8e1a1ae2e64778479643f2c2cd51416
       internalID: 5940278866164146339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonOak_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd3f61b7d68d2549be7e610dad045ac
+      internalID: -2078646469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonOak_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 16
+        width: 7
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854fad2e764e40041be7f6a4860b6d09
+      internalID: 2115115346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonOak_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 5
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f046ad320965645a71346bc4e08349
+      internalID: 322479966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonOak_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 16
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec2f090c1bcf043a063b67cfd8abe6
+      internalID: -1070259935
       vertices: []
       indices: 
       edges: []
@@ -297,11 +381,15 @@ TextureImporter:
     nameFileIdTable:
       CanyonOak_0: 4789355601316357596
       CanyonOak_1: 6019493940114240039
+      CanyonOak_10: -1070259935
       CanyonOak_2: -225264056889025803
       CanyonOak_3: 7154603021615155856
       CanyonOak_4: 1388107105281676754
       CanyonOak_5: -1611693019923910846
       CanyonOak_6: 5940278866164146339
+      CanyonOak_7: -2078646469
+      CanyonOak_8: 2115115346
+      CanyonOak_9: 322479966
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
