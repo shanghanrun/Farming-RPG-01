@@ -74,7 +74,7 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
         inventoryItem.itemQuantity = 1;
         inventoryList.Add(inventoryItem);
 
-        DebugPrintInventoryList(inventoryList);
+        // DebugPrintInventoryList(inventoryList);
     }
 
     void AddItemPosition(List<InventoryItem> inventoryList, int itemCode, int position){
@@ -85,7 +85,7 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
         inventoryItem.itemQuantity = quantity;
         inventoryList[position] = inventoryItem;
 
-        DebugPrintInventoryList(inventoryList);
+        // DebugPrintInventoryList(inventoryList);
     }
 
     void DebugPrintInventoryList(List<InventoryItem> inventoryList){

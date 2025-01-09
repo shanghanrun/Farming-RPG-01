@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : SingletonMonobehaviour<Player>
 {
+	// camera 를 통해 viewport 즉, 월드 좌표얻는다.
+	Camera mainCamera;
+
 	//Movement Parameters
 	public float xInput;
 	public float yInput;
@@ -55,6 +58,7 @@ public class Player : SingletonMonobehaviour<Player>
 		base.Awake();
 
 		rb = GetComponent<Rigidbody2D>();
+		mainCamera = Camera.main;
 	}
 
 	void Update(){
@@ -155,5 +159,9 @@ public class Player : SingletonMonobehaviour<Player>
 			isIdle = false;
 			movementSpeed = Settings.runningSpeed;
 		}
+	}
+
+	public Vector3 GetPlayerViewportPosition(){
+		return mainCamera.WorldToViewportPoint(transform.position);
 	}
 }

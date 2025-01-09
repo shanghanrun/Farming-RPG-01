@@ -234,7 +234,7 @@ MonoBehaviour:
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10018
-    itemType: 6
+    itemType: 8
     itemDescription: Grass1
     itemSprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
     itemLongDescription: 
@@ -246,7 +246,7 @@ MonoBehaviour:
     canBeEaten: 0
     canBeCarried: 0
   - itemCode: 10019
-    itemType: 6
+    itemType: 8
     itemDescription: Grass2
     itemSprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
     itemLongDescription: 
