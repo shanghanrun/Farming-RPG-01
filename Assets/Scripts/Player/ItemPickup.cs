@@ -10,7 +10,12 @@ public class ItemPickup : MonoBehaviour
             ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(item.ItemCode);
 
             // item Description을 출력하기
-            Debug.Log(itemDetails.itemDescription);
+            // Debug.Log(itemDetails.itemDescription);
+
+            //  pick up할 수 있는 아이템일 경우
+            if(itemDetails.canBePickedUp == true){
+                InventoryManager.Instance.AddItem(InventoryLocation.player, item, other.gameObject);
+            }
         }
     }
 }

@@ -3,6 +3,10 @@ using UnityEngine;
 
 public static class Settings{
 
+    // Inventory
+    public static int playerInitialInventoryCapacity = 24;
+    public static int playerMaximumInventoryCapacity = 48;
+
     // Fading Item
     public const float fadeInSeconds = .25f;
     public const float fadeOutSeconds = .35f;
